@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ORAnimation_Example' do
+  pod 'ORAnimation', :path => '../'
+
+  target 'ORAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
