@@ -1,0 +1,22 @@
+{
+  "name": "ORAnimation",
+  "version": "0.1.0",
+  "summary": "A short description of ORAnimation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ORAnimation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maxim Soloviev": "maxim@omega-r.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ORAnimation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ORAnimation/Classes/**/*"
+}
