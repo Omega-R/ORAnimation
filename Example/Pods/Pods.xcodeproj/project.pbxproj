@@ -444,38 +444,6 @@
 			};
 			name = Release;
 		};
-		32F554B39F1F835E6D0DE2B8D38046FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 712264E2CD2D51D037D68246D512889C /* ORAnimation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ORAnimation/ORAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORAnimation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ORAnimation/ORAnimation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ORAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3BACDC7AB37A4E3DB2B501FA317D3CB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D4BB5923891C1131DA37A77E438DC0B /* Pods-ORAnimation_Tests.release.xcconfig */;
@@ -631,7 +599,7 @@
 			};
 			name = Debug;
 		};
-		DBB7BDAC518042FB2E160C1C0F44E816 /* Release */ = {
+		CB9E7F7DE8EAD24F1A0E72BAB999D65C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 712264E2CD2D51D037D68246D512889C /* ORAnimation.xcconfig */;
 			buildSettings = {
@@ -656,11 +624,45 @@
 				PRODUCT_NAME = ORAnimation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CE589D890EB88DAFDFB4E3BCD707A15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712264E2CD2D51D037D68246D512889C /* ORAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ORAnimation/ORAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ORAnimation/ORAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ORAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -686,8 +688,8 @@
 		760939D4CEB150B4970AD805B1A2456F /* Build configuration list for PBXNativeTarget "ORAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32F554B39F1F835E6D0DE2B8D38046FB /* Debug */,
-				DBB7BDAC518042FB2E160C1C0F44E816 /* Release */,
+				CE589D890EB88DAFDFB4E3BCD707A15D /* Debug */,
+				CB9E7F7DE8EAD24F1A0E72BAB999D65C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
