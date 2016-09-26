@@ -23,10 +23,10 @@ import QuartzCore
         
         return anim
     }
-
+    
     @objc public static func addCircularMaskAnimation(initialRect initialRect: CGRect, destinationRect: CGRect, duration: CFTimeInterval, toView view: UIView) {
         let anim = circularMaskAnimation(destinationRect: destinationRect, duration: duration)
-
+        
         let initialCirclePath = UIBezierPath(ovalInRect: initialRect).CGPath
         
         let mask = CAShapeLayer()
@@ -41,7 +41,8 @@ import QuartzCore
         view.layer.mask = nil
     }
     
-    @objc public static func addPulseAnimationToView(v: UIView, toScaleValue: CGFloat, toScaleDuration: CFTimeInterval, fromScaleDuration: CFTimeInterval, repeatCount: Float = HUGE, animKey: String = "pulse") {
+    @objc public static func addPulseAnimationToView(v: UIView, toScaleValue: CGFloat, toScaleDuration: CFTimeInterval, fromScaleDuration: CFTimeInterval, timeout: CFTimeInterval = 0,
+                                                     repeatCount: Float = HUGE, animKey: String = "pulse") {
         let animScaleUp = CABasicAnimation(keyPath: "transform.scale")
         animScaleUp.autoreverses = false
         animScaleUp.fromValue = 1
@@ -64,7 +65,7 @@ import QuartzCore
         
         let animGroup = CAAnimationGroup()
         animGroup.animations = [animScaleUp, animScaleDown]
-        animGroup.duration = animScaleDown.beginTime + animScaleDown.duration
+        animGroup.duration = animScaleDown.beginTime + animScaleDown.duration + timeout
         animGroup.repeatCount = repeatCount
         
         v.layer.addAnimation(animGroup, forKey: animKey)
