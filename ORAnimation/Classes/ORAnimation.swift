@@ -8,41 +8,40 @@
 
 import QuartzCore
 
-@objc public class ORAnimation: NSObject {
+@objc open class ORAnimation: NSObject {
     
-    @objc public static func circularMaskAnimation(destinationRect destinationRect: CGRect, duration: CFTimeInterval) -> CABasicAnimation {
-        let destinationCirclePath = UIBezierPath(ovalInRect: destinationRect).CGPath
+    @objc open static func circularMaskAnimation(destinationRect: CGRect, duration: CFTimeInterval) -> CABasicAnimation {
+        let destinationCirclePath = UIBezierPath(ovalIn: destinationRect).cgPath
         
         let anim = CABasicAnimation(keyPath: "path")
         anim.toValue = destinationCirclePath
         anim.duration = duration
         anim.repeatCount = 0
         anim.autoreverses = false
-        anim.removedOnCompletion = false
+        anim.isRemovedOnCompletion = false
         anim.fillMode = kCAFillModeForwards
         
         return anim
     }
     
-    @objc public static func addCircularMaskAnimation(initialRect initialRect: CGRect, destinationRect: CGRect, duration: CFTimeInterval, toView view: UIView) {
+    @objc open static func addCircularMaskAnimation(initialRect: CGRect, destinationRect: CGRect, duration: CFTimeInterval, toView view: UIView) {
         let anim = circularMaskAnimation(destinationRect: destinationRect, duration: duration)
         
-        let initialCirclePath = UIBezierPath(ovalInRect: initialRect).CGPath
+        let initialCirclePath = UIBezierPath(ovalIn: initialRect).cgPath
         
         let mask = CAShapeLayer()
         mask.path = initialCirclePath
-        mask.backgroundColor = UIColor.blackColor().CGColor
+        mask.backgroundColor = UIColor.black.cgColor
         
         view.layer.mask = mask
-        mask.addAnimation(anim, forKey: "path")
+        mask.add(anim, forKey: "path")
     }
     
-    @objc public static func removeMaskFromView(view: UIView) {
+    @objc open static func removeMaskFromView(_ view: UIView) {
         view.layer.mask = nil
     }
     
-    @objc public static func addPulseAnimationToView(v: UIView, toScaleValue: CGFloat, toScaleDuration: CFTimeInterval, fromScaleDuration: CFTimeInterval, timeout: CFTimeInterval = 0,
-                                                     repeatCount: Float = HUGE, animKey: String = "pulse") {
+    @objc open static func addPulseAnimationToView(_ v: UIView, toScaleValue: CGFloat, toScaleDuration: CFTimeInterval, fromScaleDuration: CFTimeInterval, timeout: CFTimeInterval = 0, repeatCount: Float = HUGE, animKey: String = "pulse") {
         let animScaleUp = CABasicAnimation(keyPath: "transform.scale")
         animScaleUp.autoreverses = false
         animScaleUp.fromValue = 1
@@ -68,6 +67,6 @@ import QuartzCore
         animGroup.duration = animScaleDown.beginTime + animScaleDown.duration + timeout
         animGroup.repeatCount = repeatCount
         
-        v.layer.addAnimation(animGroup, forKey: animKey)
+        v.layer.add(animGroup, forKey: animKey)
     }
 }

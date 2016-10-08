@@ -1,6 +1,6 @@
 {
   "name": "ORAnimation",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "summary": "ORAnimation - animation helpers, animators, etc.",
   "description": "ORAnimation - a set of animation creating functions.",
   "homepage": "https://bitbucket.org/omegarinc/orlocation",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/omegarinc/oranimation",
-    "tag": "0.1.0"
+    "tag": "3.0.0"
   },
   "platforms": {
     "ios": "8.0"
