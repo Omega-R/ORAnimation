@@ -10,7 +10,7 @@ import QuartzCore
 
 @objc open class ORAnimation: NSObject {
     
-    @objc open static func circularMaskAnimation(destinationRect: CGRect, duration: CFTimeInterval) -> CABasicAnimation {
+    @objc public static func circularMaskAnimation(destinationRect: CGRect, duration: CFTimeInterval) -> CABasicAnimation {
         let destinationCirclePath = UIBezierPath(ovalIn: destinationRect).cgPath
         
         let anim = CABasicAnimation(keyPath: "path")
@@ -19,12 +19,12 @@ import QuartzCore
         anim.repeatCount = 0
         anim.autoreverses = false
         anim.isRemovedOnCompletion = false
-        anim.fillMode = kCAFillModeForwards
+        anim.fillMode = CAMediaTimingFillMode.forwards
         
         return anim
     }
     
-    @objc open static func addCircularMaskAnimation(initialRect: CGRect, destinationRect: CGRect, duration: CFTimeInterval, toView view: UIView) {
+    @objc public static func addCircularMaskAnimation(initialRect: CGRect, destinationRect: CGRect, duration: CFTimeInterval, toView view: UIView) {
         let anim = circularMaskAnimation(destinationRect: destinationRect, duration: duration)
         
         let initialCirclePath = UIBezierPath(ovalIn: initialRect).cgPath
@@ -37,30 +37,30 @@ import QuartzCore
         mask.add(anim, forKey: "path")
     }
     
-    @objc open static func removeMaskFromView(_ view: UIView) {
+    @objc public static func removeMaskFromView(_ view: UIView) {
         view.layer.mask = nil
     }
     
-    @objc open static func addPulseAnimationToView(_ v: UIView, toScaleValue: CGFloat, toScaleDuration: CFTimeInterval, fromScaleDuration: CFTimeInterval, timeout: CFTimeInterval = 0, repeatCount: Float = HUGE, animKey: String = "pulse") {
+    @objc public static func addPulseAnimationToView(_ v: UIView, toScaleValue: CGFloat, toScaleDuration: CFTimeInterval, fromScaleDuration: CFTimeInterval, timeout: CFTimeInterval = 0, repeatCount: Float = HUGE, animKey: String = "pulse") {
         let animScaleUp = CABasicAnimation(keyPath: "transform.scale")
         animScaleUp.autoreverses = false
         animScaleUp.fromValue = 1
         animScaleUp.toValue = toScaleValue
         animScaleUp.duration = toScaleDuration
-        animScaleUp.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animScaleUp.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animScaleUp.beginTime = 0
         animScaleUp.repeatCount = 1
-        animScaleUp.fillMode = kCAFillModeForwards
+        animScaleUp.fillMode = CAMediaTimingFillMode.forwards
         
         let animScaleDown = CABasicAnimation(keyPath: "transform.scale")
         animScaleDown.autoreverses = false
         animScaleDown.fromValue = toScaleValue
         animScaleDown.toValue = 1
         animScaleDown.duration = fromScaleDuration
-        animScaleDown.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animScaleDown.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animScaleDown.beginTime = animScaleUp.duration
         animScaleDown.repeatCount = 1
-        animScaleDown.fillMode = kCAFillModeForwards
+        animScaleDown.fillMode = CAMediaTimingFillMode.forwards
         
         let animGroup = CAAnimationGroup()
         animGroup.animations = [animScaleUp, animScaleDown]
