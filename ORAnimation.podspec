@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ORAnimation/Classes/**/*'
+  s.source_files = 'Sources/ORAnimation/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ORAnimation' => ['ORAnimation/Assets/*.png']
