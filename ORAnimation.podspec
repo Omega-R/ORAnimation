@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ORAnimation'
-  s.version          = '3.1.1'
+  s.version          = '3.1.3'
   s.summary          = 'ORAnimation - animation helpers, animators, etc.'
 
 # This description is used to generate tags and improve search results.
