@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Egor Lindberg' => 'egor-lindberg@omega-r.com' }
-  s.source           = { :git => 'https://github.com/Omega-R/ORAnimation.git', :tag => s.version.to_s } # :branch => 'add_spm_support'
+  s.source           = { :git => 'https://github.com/Omega-R/ORAnimation.git', :branch => 'add_spm_support', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-  # s.swift_version = '5.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'Sources/ORAnimation/**/*'
   

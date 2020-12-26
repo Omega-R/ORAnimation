@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/Omega-R/ORAnimation.git",
-    "branch": "add_spm_support"
+    "tag": "3.1.4"
   },
   "platforms": {
     "ios": "12.0"
   },
-  "source_files": "Sources/ORAnimation/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Sources/ORAnimation/**/*",
+  "swift_version": "5.0"
 }
