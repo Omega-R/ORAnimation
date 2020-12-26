@@ -1,9 +1,9 @@
 {
   "name": "ORAnimation",
-  "version": "0.1.0",
-  "summary": "A short description of ORAnimation.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Egor Lindberg/ORAnimation",
+  "version": "3.1.4",
+  "summary": "ORAnimation.",
+  "description": "'A short description of ORAnimation.'",
+  "homepage": "https://github.com/Omega-R/ORAnimation",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Egor Lindberg": "egor-lindberg@omega-r.com"
   },
   "source": {
-    "git": "https://github.com/Egor Lindberg/ORAnimation.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Omega-R/ORAnimation.git",
+    "branch": "add_spm_support"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
-  "source_files": "ORAnimation/Classes/**/*"
+  "source_files": "Sources/ORAnimation/**/*"
 }

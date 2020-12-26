@@ -1,5 +1,5 @@
 PODS:
-  - ORAnimation (0.1.0)
+  - ORAnimation (3.1.4)
 
 DEPENDENCIES:
   - ORAnimation (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ORAnimation: 2f494a347efbabf5ca2b09eddfccdea420adb02e
+  ORAnimation: dc4095f329c53b7027f14ca25656027076c7df04
 
-PODFILE CHECKSUM: 8f7b97545bd386fc8c4a5a2a7d57b71e30616d64
+PODFILE CHECKSUM: e833e827077e895f584a086e6a8222b203b8b626
 
 COCOAPODS: 1.8.3
