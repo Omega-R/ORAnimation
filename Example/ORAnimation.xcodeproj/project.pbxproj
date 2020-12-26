@@ -46,7 +46,7 @@
 		B77A20076F690C257E86DEF6 /* Pods-ORAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORAnimation_Example.release.xcconfig"; path = "Target Support Files/Pods-ORAnimation_Example/Pods-ORAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD9D85E9707945FA900913A7 /* Pods-ORAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORAnimation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ORAnimation_Tests/Pods-ORAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDA5979206E7289C19FF5837 /* Pods_ORAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4BB96C731953F0C29E6BE58 /* ORAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORAnimation.podspec; path = ../ORAnimation.podspec; sourceTree = "<group>"; };
+		D4BB96C731953F0C29E6BE58 /* ORAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORAnimation.podspec; path = ../ORAnimation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
