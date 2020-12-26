@@ -1,0 +1,6 @@
+framework module ORAnimation {
+  umbrella header "ORAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
