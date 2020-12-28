@@ -1,6 +1,6 @@
 # ORAnimation
 
-[![CI Status](https://img.shields.io/travis/Egor Lindberg/ORAnimation.svg?style=flat)](https://travis-ci.org/Egor Lindberg/ORAnimation)
+[![CI Status](https://img.shields.io/travis/Egor%20Lindberg/ORAnimation.svg?style=flat)](https://travis-ci.org/Egor%20Lindberg/ORAnimation)
 [![Version](https://img.shields.io/cocoapods/v/ORAnimation.svg?style=flat)](https://cocoapods.org/pods/ORAnimation)
 [![License](https://img.shields.io/cocoapods/l/ORAnimation.svg?style=flat)](https://cocoapods.org/pods/ORAnimation)
 [![Platform](https://img.shields.io/cocoapods/p/ORAnimation.svg?style=flat)](https://cocoapods.org/pods/ORAnimation)
