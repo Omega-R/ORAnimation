@@ -1,23 +1,25 @@
 {
   "name": "ORAnimation",
-  "version": "3.0.0",
-  "summary": "ORAnimation - animation helpers, animators, etc.",
-  "description": "ORAnimation - a set of animation creating functions.",
-  "homepage": "https://bitbucket.org/omegarinc/orlocation",
+  "version": "3.1.5",
+  "summary": "ORAnimation.",
+  "description": "'A short description of ORAnimation.'",
+  "homepage": "https://github.com/Omega-R/ORAnimation",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Maxim Soloviev": "maxim@omega-r.com"
+    "Egor Lindberg": "egor-lindberg@omega-r.com"
   },
   "source": {
-    "git": "https://bitbucket.org/omegarinc/oranimation",
-    "tag": "3.0.0"
+    "git": "https://github.com/Omega-R/ORAnimation.git",
+    "branch": "add_spm_support",
+    "tag": "3.1.5"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "ORAnimation/Classes/**/*",
-  "frameworks": "QuartzCore"
+  "swift_versions": "5.0",
+  "source_files": "Sources/ORAnimation/**/*",
+  "swift_version": "5.0"
 }

@@ -7,220 +7,215 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E1BEB12822868D15561037CD7C8953F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */; };
-		2E478B6D497300229018759E6B41C730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
-		37C4FE620814D48543947C4CCB6E9B1E /* Pods-ORAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB1E22A8306E1865694CC39A733115E /* Pods-ORAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		484C414B21B8421077592B0C24BA3FB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
-		4B2638D6A8A14158692395D0EB8C5600 /* ORAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D4F2C397B18A81D33BE0E751E3E62 /* ORAnimation.swift */; };
-		89DDE38A85507D6D5DE1786535B1D4BF /* ORAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5759F09EE417AB910AA9F372D5DFF247 /* ORAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94696651FD4F8D0810AB81CE4EBEF3EB /* Pods-ORAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE1B3C99EB19B90EF6DC3EE2C2EE752 /* Pods-ORAnimation_Example-dummy.m */; };
-		AD614652A0128D5F329B4CE5F327512D /* Pods-ORAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B0401D654498335582E4A99C81667D /* Pods-ORAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B93F845C7C3375E78A03C05D4CCFC6DC /* Pods-ORAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1687D225686816D12E911686FE15E733 /* Pods-ORAnimation_Tests-dummy.m */; };
-		E096E906D3FBADC677CEFAF1547EA5F0 /* ORAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F0C5A89109D49BBC21DAC5088BA673 /* ORAnimation-dummy.m */; };
-		F91C7FF0C474C6C1C5A995DB55246EE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		0521B50B4C80D6649CFEEE158798A4FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1E5AC65A7ACC2371CDE67333493346D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2C6E72AE59E0AFEB5FCE0CF66F16DAB6 /* Pods-ORAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4336438231A043E01DD840437BE87EF8 /* Pods-ORAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D6572024F284C8094462B7D51D7FCE /* ORAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D006C5944BDB98633740DF2B0CDC449C /* ORAnimation-dummy.m */; };
+		9909701807CB124FCFD9A43AB0DE49F4 /* Pods-ORAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8ED96086B6D66E5256AA8C5CA261A7 /* Pods-ORAnimation_Example-dummy.m */; };
+		AC6CCC6E62192FD0E646260B1F38ED7E /* ORAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C65C6BD3CB321B7796A1B7C484232D83 /* ORAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFC2948B99E54CE273014C019A14E300 /* ORAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6508E642F26BF4EA9DD7D44ED34A379 /* ORAnimation.swift */; };
+		DAA395E5C70F63C7513AB6BD0D19AE06 /* Pods-ORAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CF41F411C1DEB8EA3139CDCD62DFC3 /* Pods-ORAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0221CCA2FFA6D187C97F7981CE07780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E41474691C4BEDA52C40DB4A05314DCA /* Pods-ORAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DEFBF3268CF81E7415549399C46B5D /* Pods-ORAnimation_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5927D343FF17AF65DBE24DD5DB97D81B /* PBXContainerItemProxy */ = {
+		121CA4BAA04E25863D34E2BADC54477B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C74D0DAEF4D1E011E5539D70BD16A438;
+			remoteGlobalIDString = AC95161F50DCC8E48685442712DE7B27;
 			remoteInfo = ORAnimation;
+		};
+		2EAD4E69307E2B23BA7BAD1C92DC5F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30AA52DF89D5D6FD2BC794FE88AE7204;
+			remoteInfo = "Pods-ORAnimation_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F0C5A89109D49BBC21DAC5088BA673 /* ORAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORAnimation-dummy.m"; sourceTree = "<group>"; };
-		13391431922C002CC5379AAFF1765E57 /* Pods-ORAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		141E7AD24F85B347608EA0A4599BC723 /* Pods-ORAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1687D225686816D12E911686FE15E733 /* Pods-ORAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
-		1C951F56C7E4E346A938B48795DB2C33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		258880609949DDE2DD48EAC4782719CE /* ORAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORAnimation-prefix.pch"; sourceTree = "<group>"; };
-		2D4BB5923891C1131DA37A77E438DC0B /* Pods-ORAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3E6B950924C95E91E9BF7E18FD8056C3 /* Pods-ORAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
-		4979F7C77FEF6F8AA3BF39C61028DB27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EB1E22A8306E1865694CC39A733115E /* Pods-ORAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
-		50B1088B0C91FFE81458C4394310C0C8 /* Pods-ORAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5649FF6C192C7B611A2F7DCFB4A9D64A /* Pods-ORAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5759F09EE417AB910AA9F372D5DFF247 /* ORAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORAnimation-umbrella.h"; sourceTree = "<group>"; };
-		69B0401D654498335582E4A99C81667D /* Pods-ORAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6CA94A87ED3BF3224F17480A34AA963B /* Pods-ORAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ORAnimation_Example.modulemap"; sourceTree = "<group>"; };
-		712264E2CD2D51D037D68246D512889C /* ORAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORAnimation.xcconfig; sourceTree = "<group>"; };
-		743E55493361F62686533F2BAB60E479 /* Pods_ORAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C128DF1CF411861DC887D42A4D43802 /* Pods-ORAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		81E96305814379B03C0D969977F4926F /* ORAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ORAnimation.modulemap; sourceTree = "<group>"; };
-		84B3757DC9EBAFD83CDE33E3D6B8A4C8 /* Pods-ORAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORAnimation_Example-resources.sh"; sourceTree = "<group>"; };
-		8E36019D4CF30670DB8B9079D9C8924E /* ORAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		937D4F2C397B18A81D33BE0E751E3E62 /* ORAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ORAnimation.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0DA24DC56BAF71663C42483A43F4137 /* Pods-ORAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B93AD02A4944EFC6CCFE86A539E0BED1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDE1B3C99EB19B90EF6DC3EE2C2EE752 /* Pods-ORAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORAnimation_Example-dummy.m"; sourceTree = "<group>"; };
-		D1DCD53EF171745F72EF66A68515B017 /* Pods_ORAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D200DF8131F39B98625B1DA723D0DF76 /* Pods-ORAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EF18E0368F4F0379EFB7D5FC1FBB8870 /* Pods-ORAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F31734DCF68ED85B8FCF38EA36A02EA2 /* Pods-ORAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FAAEFFBE22529D572DEF77350E919D82 /* Pods-ORAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ORAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		0C4D4F471B57F239918F517B743A61F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C90B9B0E92BAB6F4D6B86888BDAFB7A /* ORAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ORAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		381AE33FE69737A035A45F3109CD2F98 /* ORAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORAnimation.modulemap; sourceTree = "<group>"; };
+		3F7DEB9637ED38B54091B056FFA474BF /* Pods-ORAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
+		40D3F15DC09C67321CF78DD9377E6301 /* Pods-ORAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		41DEFBF3268CF81E7415549399C46B5D /* Pods-ORAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		4336438231A043E01DD840437BE87EF8 /* Pods-ORAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		64B985CD377E6578F52508DF86201F67 /* Pods-ORAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		740C4F0F9C8C31E20D36A1B41C36FA03 /* ORAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORAnimation-prefix.pch"; sourceTree = "<group>"; };
+		767CA46D6746C94A25F30161CFC144A0 /* ORAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORAnimation.xcconfig; sourceTree = "<group>"; };
+		795C8F13E2E3CEE4C9BF63C64A1A399D /* Pods-ORAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		821023675AFFFEA31364DDE582519F15 /* Pods-ORAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		91125C9403DFF3EAB27A4AABAB44489D /* Pods-ORAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		92368CD689B2FA2591D8E2B407EF9612 /* Pods-ORAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		94E195B4B3F46D212456E0818E24DAB7 /* Pods-ORAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6508E642F26BF4EA9DD7D44ED34A379 /* ORAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ORAnimation.swift; path = Sources/ORAnimation/Classes/ORAnimation.swift; sourceTree = "<group>"; };
+		AAD770B52D500B84A1C1D9663629EF20 /* Pods-ORAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4E06AF5D149A05CB4C1CFEF8656F297 /* ORAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ORAnimation.framework; path = ORAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E7A9A2CF3FC310A8C3A254C1C5DA36 /* Pods-ORAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C65C6BD3CB321B7796A1B7C484232D83 /* ORAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORAnimation-umbrella.h"; sourceTree = "<group>"; };
+		C6CF41F411C1DEB8EA3139CDCD62DFC3 /* Pods-ORAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		C89ACAAEC38508D3491B8C85966FA64C /* ORAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ORAnimation-Info.plist"; sourceTree = "<group>"; };
+		CF8CC954760CA02541289D75F999F5D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D006C5944BDB98633740DF2B0CDC449C /* ORAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORAnimation-dummy.m"; sourceTree = "<group>"; };
+		D55753C32BF4A2B439700BE1E5070C04 /* Pods_ORAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORAnimation_Example.framework; path = "Pods-ORAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F3AA1C8C129C3D6E2C19A9433FD4F3 /* Pods_ORAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORAnimation_Tests.framework; path = "Pods-ORAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5E76D86C2D90C616CA1264914650B0 /* Pods-ORAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORAnimation_Example-Info.plist"; sourceTree = "<group>"; };
+		ED5DD480E336533E5B4D73921233954E /* Pods-ORAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8AF33E491141EC8D050804283D3B53C /* Pods-ORAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		FD8ED96086B6D66E5256AA8C5CA261A7 /* Pods-ORAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORAnimation_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6CDD59A33131001E73679415649AB5A /* Frameworks */ = {
+		64217A1D82F6B0D4B5BA63665A903993 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E478B6D497300229018759E6B41C730 /* Foundation.framework in Frameworks */,
-				1E1BEB12822868D15561037CD7C8953F /* QuartzCore.framework in Frameworks */,
+				E0221CCA2FFA6D187C97F7981CE07780 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBC0518DD7CFBB26B5AB4BE79EFEADD3 /* Frameworks */ = {
+		7A317493BCF9E4B61752A912674AA3FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91C7FF0C474C6C1C5A995DB55246EE6 /* Foundation.framework in Frameworks */,
+				1E5AC65A7ACC2371CDE67333493346D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF533E70CF28428960227210DD55EAE8 /* Frameworks */ = {
+		E03BEB2FAD07815161FA0DF073771FB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484C414B21B8421077592B0C24BA3FB5 /* Foundation.framework in Frameworks */,
+				0521B50B4C80D6649CFEEE158798A4FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		125817C676E733284DCC6949C9EB83BC /* Development Pods */ = {
+		19B4CFD0874C9292A4C881385A1D0199 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F90D441A5858F7BE626A48BE2879D529 /* ORAnimation */,
+				0C4D4F471B57F239918F517B743A61F2 /* LICENSE */,
+				2C90B9B0E92BAB6F4D6B86888BDAFB7A /* ORAnimation.podspec */,
+				CF8CC954760CA02541289D75F999F5D4 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		40367998AFCF6EA5357BE954AA87D1BF /* Support Files */ = {
+		5F8D3BFCC19FF19F7E5E6DED00C7CE36 /* Pods-ORAnimation_Example */ = {
 			isa = PBXGroup;
 			children = (
-				4979F7C77FEF6F8AA3BF39C61028DB27 /* Info.plist */,
-				81E96305814379B03C0D969977F4926F /* ORAnimation.modulemap */,
-				712264E2CD2D51D037D68246D512889C /* ORAnimation.xcconfig */,
-				06F0C5A89109D49BBC21DAC5088BA673 /* ORAnimation-dummy.m */,
-				258880609949DDE2DD48EAC4782719CE /* ORAnimation-prefix.pch */,
-				5759F09EE417AB910AA9F372D5DFF247 /* ORAnimation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ORAnimation";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				89F803C7E2D77E11F2120CB28FE0B795 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		48706BD33BC3DE6F618081F91C152D55 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8E36019D4CF30670DB8B9079D9C8924E /* ORAnimation.framework */,
-				D1DCD53EF171745F72EF66A68515B017 /* Pods_ORAnimation_Example.framework */,
-				743E55493361F62686533F2BAB60E479 /* Pods_ORAnimation_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		64AE09E8A6C7DACEF5284D70D6381516 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACC64F41219ECF38D8B9ED87F527C64C /* Pods-ORAnimation_Example */,
-				C2E5EEBF61D8361C9B7A9C9A8FE93E86 /* Pods-ORAnimation_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				125817C676E733284DCC6949C9EB83BC /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				48706BD33BC3DE6F618081F91C152D55 /* Products */,
-				64AE09E8A6C7DACEF5284D70D6381516 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		89F803C7E2D77E11F2120CB28FE0B795 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */,
-				EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		ACC64F41219ECF38D8B9ED87F527C64C /* Pods-ORAnimation_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1C951F56C7E4E346A938B48795DB2C33 /* Info.plist */,
-				6CA94A87ED3BF3224F17480A34AA963B /* Pods-ORAnimation_Example.modulemap */,
-				13391431922C002CC5379AAFF1765E57 /* Pods-ORAnimation_Example-acknowledgements.markdown */,
-				7C128DF1CF411861DC887D42A4D43802 /* Pods-ORAnimation_Example-acknowledgements.plist */,
-				BDE1B3C99EB19B90EF6DC3EE2C2EE752 /* Pods-ORAnimation_Example-dummy.m */,
-				F31734DCF68ED85B8FCF38EA36A02EA2 /* Pods-ORAnimation_Example-frameworks.sh */,
-				84B3757DC9EBAFD83CDE33E3D6B8A4C8 /* Pods-ORAnimation_Example-resources.sh */,
-				4EB1E22A8306E1865694CC39A733115E /* Pods-ORAnimation_Example-umbrella.h */,
-				D200DF8131F39B98625B1DA723D0DF76 /* Pods-ORAnimation_Example.debug.xcconfig */,
-				EF18E0368F4F0379EFB7D5FC1FBB8870 /* Pods-ORAnimation_Example.release.xcconfig */,
+				F8AF33E491141EC8D050804283D3B53C /* Pods-ORAnimation_Example.modulemap */,
+				C2E7A9A2CF3FC310A8C3A254C1C5DA36 /* Pods-ORAnimation_Example-acknowledgements.markdown */,
+				91125C9403DFF3EAB27A4AABAB44489D /* Pods-ORAnimation_Example-acknowledgements.plist */,
+				FD8ED96086B6D66E5256AA8C5CA261A7 /* Pods-ORAnimation_Example-dummy.m */,
+				94E195B4B3F46D212456E0818E24DAB7 /* Pods-ORAnimation_Example-frameworks.sh */,
+				EB5E76D86C2D90C616CA1264914650B0 /* Pods-ORAnimation_Example-Info.plist */,
+				C6CF41F411C1DEB8EA3139CDCD62DFC3 /* Pods-ORAnimation_Example-umbrella.h */,
+				795C8F13E2E3CEE4C9BF63C64A1A399D /* Pods-ORAnimation_Example.debug.xcconfig */,
+				ED5DD480E336533E5B4D73921233954E /* Pods-ORAnimation_Example.release.xcconfig */,
 			);
 			name = "Pods-ORAnimation_Example";
 			path = "Target Support Files/Pods-ORAnimation_Example";
 			sourceTree = "<group>";
 		};
-		C2E5EEBF61D8361C9B7A9C9A8FE93E86 /* Pods-ORAnimation_Tests */ = {
+		67339954E33E9389503B25FADA88BD0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B93AD02A4944EFC6CCFE86A539E0BED1 /* Info.plist */,
-				FAAEFFBE22529D572DEF77350E919D82 /* Pods-ORAnimation_Tests.modulemap */,
-				5649FF6C192C7B611A2F7DCFB4A9D64A /* Pods-ORAnimation_Tests-acknowledgements.markdown */,
-				A0DA24DC56BAF71663C42483A43F4137 /* Pods-ORAnimation_Tests-acknowledgements.plist */,
-				1687D225686816D12E911686FE15E733 /* Pods-ORAnimation_Tests-dummy.m */,
-				141E7AD24F85B347608EA0A4599BC723 /* Pods-ORAnimation_Tests-frameworks.sh */,
-				3E6B950924C95E91E9BF7E18FD8056C3 /* Pods-ORAnimation_Tests-resources.sh */,
-				69B0401D654498335582E4A99C81667D /* Pods-ORAnimation_Tests-umbrella.h */,
-				50B1088B0C91FFE81458C4394310C0C8 /* Pods-ORAnimation_Tests.debug.xcconfig */,
-				2D4BB5923891C1131DA37A77E438DC0B /* Pods-ORAnimation_Tests.release.xcconfig */,
+				B4E06AF5D149A05CB4C1CFEF8656F297 /* ORAnimation.framework */,
+				D55753C32BF4A2B439700BE1E5070C04 /* Pods_ORAnimation_Example.framework */,
+				D6F3AA1C8C129C3D6E2C19A9433FD4F3 /* Pods_ORAnimation_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E10B22021A6FDC9E862422C1D62D603 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				381AE33FE69737A035A45F3109CD2F98 /* ORAnimation.modulemap */,
+				767CA46D6746C94A25F30161CFC144A0 /* ORAnimation.xcconfig */,
+				D006C5944BDB98633740DF2B0CDC449C /* ORAnimation-dummy.m */,
+				C89ACAAEC38508D3491B8C85966FA64C /* ORAnimation-Info.plist */,
+				740C4F0F9C8C31E20D36A1B41C36FA03 /* ORAnimation-prefix.pch */,
+				C65C6BD3CB321B7796A1B7C484232D83 /* ORAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ORAnimation";
+			sourceTree = "<group>";
+		};
+		A14EE7B5284024B1517827F87FED271A /* Pods-ORAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				821023675AFFFEA31364DDE582519F15 /* Pods-ORAnimation_Tests.modulemap */,
+				64B985CD377E6578F52508DF86201F67 /* Pods-ORAnimation_Tests-acknowledgements.markdown */,
+				AAD770B52D500B84A1C1D9663629EF20 /* Pods-ORAnimation_Tests-acknowledgements.plist */,
+				41DEFBF3268CF81E7415549399C46B5D /* Pods-ORAnimation_Tests-dummy.m */,
+				3F7DEB9637ED38B54091B056FFA474BF /* Pods-ORAnimation_Tests-Info.plist */,
+				4336438231A043E01DD840437BE87EF8 /* Pods-ORAnimation_Tests-umbrella.h */,
+				40D3F15DC09C67321CF78DD9377E6301 /* Pods-ORAnimation_Tests.debug.xcconfig */,
+				92368CD689B2FA2591D8E2B407EF9612 /* Pods-ORAnimation_Tests.release.xcconfig */,
 			);
 			name = "Pods-ORAnimation_Tests";
 			path = "Target Support Files/Pods-ORAnimation_Tests";
 			sourceTree = "<group>";
 		};
-		D4CA4DFEF91576057BA9E70FA41A8CCA /* ORAnimation */ = {
+		A3E00D099FEB2EFCCBB5CF118A92E982 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF996B62318CAE2D0617FF17356412FC /* Classes */,
+				DD59ED23E6D13928F490953A50F04C07 /* ORAnimation */,
 			);
-			path = ORAnimation;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EF996B62318CAE2D0617FF17356412FC /* Classes */ = {
+		BC4E45F69FED4D636BC5A65338C7929A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				937D4F2C397B18A81D33BE0E751E3E62 /* ORAnimation.swift */,
+				5F8D3BFCC19FF19F7E5E6DED00C7CE36 /* Pods-ORAnimation_Example */,
+				A14EE7B5284024B1517827F87FED271A /* Pods-ORAnimation_Tests */,
 			);
-			path = Classes;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F90D441A5858F7BE626A48BE2879D529 /* ORAnimation */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D4CA4DFEF91576057BA9E70FA41A8CCA /* ORAnimation */,
-				40367998AFCF6EA5357BE954AA87D1BF /* Support Files */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3E00D099FEB2EFCCBB5CF118A92E982 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				67339954E33E9389503B25FADA88BD0E /* Products */,
+				BC4E45F69FED4D636BC5A65338C7929A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD59ED23E6D13928F490953A50F04C07 /* ORAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A6508E642F26BF4EA9DD7D44ED34A379 /* ORAnimation.swift */,
+				19B4CFD0874C9292A4C881385A1D0199 /* Pod */,
+				7E10B22021A6FDC9E862422C1D62D603 /* Support Files */,
 			);
 			name = ORAnimation;
 			path = ../..;
@@ -229,75 +224,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		074C2D165619CA2A9B260A04FAD3B6AB /* Headers */ = {
+		6BBFE260BADDB5323C514128165568FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89DDE38A85507D6D5DE1786535B1D4BF /* ORAnimation-umbrella.h in Headers */,
+				DAA395E5C70F63C7513AB6BD0D19AE06 /* Pods-ORAnimation_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F29B30C381827C5D0A6ED526D4F2461 /* Headers */ = {
+		95B20FE5530BCAAB624DDBE85B4C0D4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37C4FE620814D48543947C4CCB6E9B1E /* Pods-ORAnimation_Example-umbrella.h in Headers */,
+				2C6E72AE59E0AFEB5FCE0CF66F16DAB6 /* Pods-ORAnimation_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECF97A012BB011312B8B24959209D52F /* Headers */ = {
+		BB76D5491B3AA2E2A9988F2C42624815 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD614652A0128D5F329B4CE5F327512D /* Pods-ORAnimation_Tests-umbrella.h in Headers */,
+				AC6CCC6E62192FD0E646260B1F38ED7E /* ORAnimation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		29D53A2BDFDB0C6B97C3FB875E801BAD /* Pods-ORAnimation_Tests */ = {
+		30AA52DF89D5D6FD2BC794FE88AE7204 /* Pods-ORAnimation_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 865295B89B8AE3A5D0AC8F0FD3D0E9D1 /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Tests" */;
+			buildConfigurationList = A79FCCCB93850AE49F3B272145E686F9 /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Example" */;
 			buildPhases = (
-				3316AE37D2A2B5F216075A9FFC4BDE02 /* Sources */,
-				BBC0518DD7CFBB26B5AB4BE79EFEADD3 /* Frameworks */,
-				ECF97A012BB011312B8B24959209D52F /* Headers */,
+				6BBFE260BADDB5323C514128165568FF /* Headers */,
+				C64183633C4D00922A14B086121F0410 /* Sources */,
+				7A317493BCF9E4B61752A912674AA3FB /* Frameworks */,
+				814B510E34DAD3AA11932941241A7D7C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-ORAnimation_Tests";
-			productName = "Pods-ORAnimation_Tests";
-			productReference = 743E55493361F62686533F2BAB60E479 /* Pods_ORAnimation_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BD1EA0CA41CDAE4349FAB203FCF09D02 /* Pods-ORAnimation_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65C44B81D68A00F987A42DAD9F47DAAC /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Example" */;
-			buildPhases = (
-				B0C5252465E24D5D2B5EC1D91A2C3325 /* Sources */,
-				BF533E70CF28428960227210DD55EAE8 /* Frameworks */,
-				9F29B30C381827C5D0A6ED526D4F2461 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6881E634322BD014AD9A55DBE055E296 /* PBXTargetDependency */,
+				F30533DB1F42939A1C08F4DB5674CC95 /* PBXTargetDependency */,
 			);
 			name = "Pods-ORAnimation_Example";
 			productName = "Pods-ORAnimation_Example";
-			productReference = D1DCD53EF171745F72EF66A68515B017 /* Pods_ORAnimation_Example.framework */;
+			productReference = D55753C32BF4A2B439700BE1E5070C04 /* Pods_ORAnimation_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C74D0DAEF4D1E011E5539D70BD16A438 /* ORAnimation */ = {
+		AC95161F50DCC8E48685442712DE7B27 /* ORAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 760939D4CEB150B4970AD805B1A2456F /* Build configuration list for PBXNativeTarget "ORAnimation" */;
+			buildConfigurationList = 587AFA1A2A0E85463AAE79A820379078 /* Build configuration list for PBXNativeTarget "ORAnimation" */;
 			buildPhases = (
-				86E68FCCB758211CB340D145C4BA9109 /* Sources */,
-				B6CDD59A33131001E73679415649AB5A /* Frameworks */,
-				074C2D165619CA2A9B260A04FAD3B6AB /* Headers */,
+				BB76D5491B3AA2E2A9988F2C42624815 /* Headers */,
+				24F18A68E3854EBCF046651072EC7CF2 /* Sources */,
+				64217A1D82F6B0D4B5BA63665A903993 /* Frameworks */,
+				88ACB2CEE454322025E015EE93B1EEA3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -305,268 +285,142 @@
 			);
 			name = ORAnimation;
 			productName = ORAnimation;
-			productReference = 8E36019D4CF30670DB8B9079D9C8924E /* ORAnimation.framework */;
+			productReference = B4E06AF5D149A05CB4C1CFEF8656F297 /* ORAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6B9C517F4AA8AD4743971D3ACAD74A9 /* Pods-ORAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2CEB803B736D89E782A678C01159D2 /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Tests" */;
+			buildPhases = (
+				95B20FE5530BCAAB624DDBE85B4C0D4A /* Headers */,
+				ADDC66F1122FEB1541B69182A0E9D3EC /* Sources */,
+				E03BEB2FAD07815161FA0DF073771FB9 /* Frameworks */,
+				4B90F71DDE0778ECC335582007362ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D4BB4DDF4DF547DBE81BC4C4B65F17 /* PBXTargetDependency */,
+			);
+			name = "Pods-ORAnimation_Tests";
+			productName = "Pods-ORAnimation_Tests";
+			productReference = D6F3AA1C8C129C3D6E2C19A9433FD4F3 /* Pods_ORAnimation_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					C74D0DAEF4D1E011E5539D70BD16A438 = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 48706BD33BC3DE6F618081F91C152D55 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 67339954E33E9389503B25FADA88BD0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C74D0DAEF4D1E011E5539D70BD16A438 /* ORAnimation */,
-				BD1EA0CA41CDAE4349FAB203FCF09D02 /* Pods-ORAnimation_Example */,
-				29D53A2BDFDB0C6B97C3FB875E801BAD /* Pods-ORAnimation_Tests */,
+				AC95161F50DCC8E48685442712DE7B27 /* ORAnimation */,
+				30AA52DF89D5D6FD2BC794FE88AE7204 /* Pods-ORAnimation_Example */,
+				C6B9C517F4AA8AD4743971D3ACAD74A9 /* Pods-ORAnimation_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4B90F71DDE0778ECC335582007362ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814B510E34DAD3AA11932941241A7D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ACB2CEE454322025E015EE93B1EEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		3316AE37D2A2B5F216075A9FFC4BDE02 /* Sources */ = {
+		24F18A68E3854EBCF046651072EC7CF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B93F845C7C3375E78A03C05D4CCFC6DC /* Pods-ORAnimation_Tests-dummy.m in Sources */,
+				67D6572024F284C8094462B7D51D7FCE /* ORAnimation-dummy.m in Sources */,
+				CFC2948B99E54CE273014C019A14E300 /* ORAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86E68FCCB758211CB340D145C4BA9109 /* Sources */ = {
+		ADDC66F1122FEB1541B69182A0E9D3EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E096E906D3FBADC677CEFAF1547EA5F0 /* ORAnimation-dummy.m in Sources */,
-				4B2638D6A8A14158692395D0EB8C5600 /* ORAnimation.swift in Sources */,
+				E41474691C4BEDA52C40DB4A05314DCA /* Pods-ORAnimation_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0C5252465E24D5D2B5EC1D91A2C3325 /* Sources */ = {
+		C64183633C4D00922A14B086121F0410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94696651FD4F8D0810AB81CE4EBEF3EB /* Pods-ORAnimation_Example-dummy.m in Sources */,
+				9909701807CB124FCFD9A43AB0DE49F4 /* Pods-ORAnimation_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6881E634322BD014AD9A55DBE055E296 /* PBXTargetDependency */ = {
+		83D4BB4DDF4DF547DBE81BC4C4B65F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ORAnimation_Example";
+			target = 30AA52DF89D5D6FD2BC794FE88AE7204 /* Pods-ORAnimation_Example */;
+			targetProxy = 2EAD4E69307E2B23BA7BAD1C92DC5F8B /* PBXContainerItemProxy */;
+		};
+		F30533DB1F42939A1C08F4DB5674CC95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ORAnimation;
-			target = C74D0DAEF4D1E011E5539D70BD16A438 /* ORAnimation */;
-			targetProxy = 5927D343FF17AF65DBE24DD5DB97D81B /* PBXContainerItemProxy */;
+			target = AC95161F50DCC8E48685442712DE7B27 /* ORAnimation */;
+			targetProxy = 121CA4BAA04E25863D34E2BADC54477B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FAD9D95B277A357BF4CC4839E753642 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50B1088B0C91FFE81458C4394310C0C8 /* Pods-ORAnimation_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Tests/Pods-ORAnimation_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ORAnimation_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		19B06CEAFE7C0B58C0CAA784CB9599DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF18E0368F4F0379EFB7D5FC1FBB8870 /* Pods-ORAnimation_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Example/Pods-ORAnimation_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ORAnimation_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3BACDC7AB37A4E3DB2B501FA317D3CB9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D4BB5923891C1131DA37A77E438DC0B /* Pods-ORAnimation_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Tests/Pods-ORAnimation_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ORAnimation_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		416CC61D20F4C5A913C99FD11CA9E2A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 712264E2CD2D51D037D68246D512889C /* ORAnimation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ORAnimation/ORAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORAnimation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ORAnimation/ORAnimation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ORAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		436DE5884CF2FEE4C8CA8DB39C57C71D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 712264E2CD2D51D037D68246D512889C /* ORAnimation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ORAnimation/ORAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORAnimation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ORAnimation/ORAnimation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ORAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -574,108 +428,18 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9C42A26A9FB521045DE42BEEBC1AD144 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D200DF8131F39B98625B1DA723D0DF76 /* Pods-ORAnimation_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Example/Pods-ORAnimation_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ORAnimation_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -684,61 +448,334 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1620110D5901E31835521B2132AEF9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D3F15DC09C67321CF78DD9377E6301 /* Pods-ORAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Tests/Pods-ORAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Tests/Pods-ORAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2233E4458542FCA9C34B503BBF75508D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5DD480E336533E5B4D73921233954E /* Pods-ORAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Example/Pods-ORAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Example/Pods-ORAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C60071E67781B95E641B7A943369B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767CA46D6746C94A25F30161CFC144A0 /* ORAnimation.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ORAnimation/ORAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORAnimation/ORAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ORAnimation/ORAnimation.modulemap";
+				PRODUCT_MODULE_NAME = ORAnimation;
+				PRODUCT_NAME = ORAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFD1BFECB4AD41D90536466E6D7C1D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92368CD689B2FA2591D8E2B407EF9612 /* Pods-ORAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Tests/Pods-ORAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Tests/Pods-ORAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA8D130BB0CE8E2366868377C90414E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 795C8F13E2E3CEE4C9BF63C64A1A399D /* Pods-ORAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORAnimation_Example/Pods-ORAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORAnimation_Example/Pods-ORAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F5BB1D7D24F9A371240DCE14485C215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767CA46D6746C94A25F30161CFC144A0 /* ORAnimation.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ORAnimation/ORAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORAnimation/ORAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ORAnimation/ORAnimation.modulemap";
+				PRODUCT_MODULE_NAME = ORAnimation;
+				PRODUCT_NAME = ORAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C44B81D68A00F987A42DAD9F47DAAC /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Example" */ = {
+		4A2CEB803B736D89E782A678C01159D2 /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C42A26A9FB521045DE42BEEBC1AD144 /* Debug */,
-				19B06CEAFE7C0B58C0CAA784CB9599DC /* Release */,
+				1620110D5901E31835521B2132AEF9EB /* Debug */,
+				AFD1BFECB4AD41D90536466E6D7C1D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		760939D4CEB150B4970AD805B1A2456F /* Build configuration list for PBXNativeTarget "ORAnimation" */ = {
+		587AFA1A2A0E85463AAE79A820379078 /* Build configuration list for PBXNativeTarget "ORAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				416CC61D20F4C5A913C99FD11CA9E2A3 /* Debug */,
-				436DE5884CF2FEE4C8CA8DB39C57C71D /* Release */,
+				F5BB1D7D24F9A371240DCE14485C215F /* Debug */,
+				2C60071E67781B95E641B7A943369B53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		865295B89B8AE3A5D0AC8F0FD3D0E9D1 /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Tests" */ = {
+		A79FCCCB93850AE49F3B272145E686F9 /* Build configuration list for PBXNativeTarget "Pods-ORAnimation_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FAD9D95B277A357BF4CC4839E753642 /* Debug */,
-				3BACDC7AB37A4E3DB2B501FA317D3CB9 /* Release */,
+				EA8D130BB0CE8E2366868377C90414E8 /* Debug */,
+				2233E4458542FCA9C34B503BBF75508D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -5,7 +5,7 @@
 //  Created by Maxim Soloviev on 21/06/16.
 //  Copyright © 2016 Maxim Soloviev. All rights reserved.
 //
-
+import UIKit
 import QuartzCore
 
 @objc open class ORAnimation: NSObject {
